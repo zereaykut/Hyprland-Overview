@@ -1,0 +1,51 @@
+#mainWindow {
+    background-color: #303446;
+    border-radius: 10px;
+    color: white;
+    font-family: "Segoe UI";
+    font-size: 11pt;
+}
+
+#windowLabel {
+    background-color: #737994;
+    border: 2px solid black;
+    padding: 4px;
+    border-radius: 6px;
+    color: #eff1f5;
+}
+
+#gridCell {
+    background-color: #303446;
+}
+
+#specialCell {
+    background-color: #303446;
+    border: 2px solid #eebebe;
+}
+
+
+/* Style the context menu */
+QMenu {
+    background-color: #303446;       /* Background of the menu */
+    color: #eff1f5;                  /* Text color */
+    border: 1px solid #444;          /* Border around the menu */
+    padding: 4px;
+}
+
+/* Style each item in the menu */
+QMenu::item {
+    background-color: transparent;  /* Default background for item */
+    padding: 6px 20px;              /* Padding inside items */
+}
+
+/* Highlighted item (hover or selected) */
+QMenu::item:selected {
+    background-color: #737994;      /* Highlight color */
+    color: #eff1f5;                 /* Text color on hover */
+}
+
+/* Optional: disabled menu item */
+QMenu::item:disabled {
+    color: red;                 /* Color for disabled items */
+}
+

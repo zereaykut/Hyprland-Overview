@@ -163,6 +163,9 @@ class DraggableLabel(QLabel):
             self.raise_()
         elif event.button() == Qt.MouseButton.RightButton:
             self.show_context_menu(event.pos())
+        elif event.button() == Qt.MouseButton.MiddleButton:
+            self.close_window()
+
 
     def mouseMoveEvent(self, event):
         if self.dragging:

@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 # Clone repository to where install.sh is
-git clone https://github.com/zereaykut/Hyprland-Overview.git .
+git clone https://github.com/zereaykut/Hyprland-Overview.git
 
 # Create install directory
 mkdir -p ~/.config/hyprland-overview/
